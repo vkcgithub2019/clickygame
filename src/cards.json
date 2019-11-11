@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "image": "images/eagle1.png",
+      "name": "eagle1"
+    },
+    {
+      "id": 2,
+      "image": "images/eagle2.png",
+      "name": "eagle2"
+    },
+    {
+      "id": 3,
+      "image": "images/eagle3.png",
+      "name": "eagle3"
+    },
+    {
+      "id": 4,
+      "image": "images/eagle4.png",
+      "name": "eagle5"
+    },
+    {
+      "id": 5,
+      "image": "images/eagle5.png",
+      "name": "eagle5"
+    },
+    {
+      "id": 6,
+      "image": "images/owl1.png",
+      "name": "owl1"
+    },
+    {
+      "id": 7,
+      "image": "images/owl2.png",
+      "name": "owl2"
+    },
+    {
+      "id": 8,
+      "image": "images/owl3.png",
+      "name": "owl3"
+    },
+    {
+      "id": 9,
+      "image": "images/owl4.png",
+      "name": "owl4"
+    },
+    {
+      "id": 10,
+      "image": "images/owl5.png",
+      "name": "owl5"
+    },
+    {
+      "id": 11,
+      "image": "images/owl6.png",
+      "name": "owl6"
+    },
+    {
+      "id": 12,
+      "image": "images/parrot1.png",
+      "name": "parrot1"
+    },
+
+    {
+        "id": 13,
+        "image": "images/parrot2.png",
+        "name": "parrot2"
+      },
+
+      {
+        "id": 14,
+        "image": "images/parrot3.png",
+        "name": "parrot3"
+      },
+
+      {
+        "id": 15,
+        "image": "images/parrot4.png",
+        "name": "parrot4"
+      },
+
+      {
+        "id": 16,
+        "image": "images/parrot5.png",
+        "name": "parrot5"
+      },
+
+      {
+        "id": 17,
+        "image": "images/parrot6.png",
+        "name": "parrot5"
+      },
+
+      {
+        "id": 18,
+        "image": "images/parrot7.png",
+        "name": "parrot5"
+      }
+
+
+
+
+  ]
