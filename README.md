@@ -6,17 +6,7 @@ On the front page, there are 18 pictures of birds that the user has to click on 
 Technology used:
 React
 
-The github deployed link is: 
-
-
-
-
-
-
-
-
-
-
+===========================================================================================
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
