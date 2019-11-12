@@ -17,7 +17,7 @@
     {
       "id": 4,
       "image": "images/eagle4.png",
-      "name": "eagle5"
+      "name": "eagle4"
     },
     {
       "id": 5,
@@ -46,13 +46,13 @@
     },
     {
       "id": 10,
-      "image": "images/owl5.png",
-      "name": "owl5"
+      "image": "images/owl10.png",
+      "name": "owl0"
     },
     {
       "id": 11,
-      "image": "images/owl6.png",
-      "name": "owl6"
+      "image": "images/owl11.png",
+      "name": "owl11"
     },
     {
       "id": 12,
