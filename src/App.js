@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import pictures from "./cards.json";
-import Scoreboard from "./components/Scoreboard";
-import Card from "./components/Card";
+import pictures from "./pads.json";
+import ScoreKeeper from "./components/ScoreKeeper";
+import Pad from "./components/Pad/pad";
 
-// the shuffling of pictures once clicked
+// the random shuffling of pictures once clicked
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -23,7 +23,7 @@ class App extends Component {
   };
 
   clickedImage = id => {
-    // assign the state of the empty array to a let to be updated
+    // updating the state of score
     let clickedpictures = this.state.clickedpictures;
     let score = this.state.score;
     let topScore = this.state.topScore;
@@ -31,14 +31,14 @@ class App extends Component {
       showAlert: 0
     });
 
-    // if the clicked image has an id of the indexed pictures
+    // selecting id of indexed picture
     if (clickedpictures.indexOf(id) === -1) {
-      // push that id into that id into the array to be stored
+      // pushing and storing that id of the clicked picture
       clickedpictures.push(id);
       console.log(clickedpictures);
-      // run the score function
+      // executing the score function
       this.handleIncrement();
-      // run the reshuffle function after each click
+      // trigerring the reshuffling function
       this.makeShuffle();
     } else if (this.state.score === 18) {
       /* console.log ("you win") */
@@ -50,7 +50,7 @@ class App extends Component {
         clickedpictures: []
       });
     } else {
-       // alert player loss
+       // player lost and resetting to zero
       this.setState({
         score: 0,
         clickedpictures: []
@@ -68,9 +68,9 @@ class App extends Component {
     }
   };
 
-  // handleIncrement increases this.state.score by 1
+  // increment score by 1
   handleIncrement = () => {
-    // setState updates a components states
+    // updating the component state
     this.setState({ score: this.state.score + 1 });
   };
 
@@ -82,16 +82,14 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        
-
-        
-        <Scoreboard
+        <ScoreKeeper
           title="clicky Game"
           score={this.state.score}
           topScore={this.state.topScore}
         />
 
         <div
+        
           className="alert"
           style={{ opacity: this.state.showAlert }}>
         
@@ -100,7 +98,7 @@ class App extends Component {
 
         <div className="row">
           {this.state.pictures.map(picture => (
-            <Card
+            <Pad
               id={picture.id}
               image={picture.image} 
               clickedImage={this.clickedImage}

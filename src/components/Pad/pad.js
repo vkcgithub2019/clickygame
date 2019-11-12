@@ -1,8 +1,8 @@
 import React from "react";
-import "./card.css";
+import "./pad.css";
 
-const Cards = props => (
-  <div className="card" onClick={() => props.clickedImage(props.id)}>
+const Pads = props => (
+  <div className="pad" onClick={() => props.clickedImage(props.id)}>
     <div className="img-container">
       <img alt={props.name} src={props.image} />
       <div className="overlay">
@@ -11,4 +11,4 @@ const Cards = props => (
   </div>
 );
 
-export default Cards;
+export default Pads;

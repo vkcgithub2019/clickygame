@@ -1,11 +1,11 @@
 import React from "react";
-import "./scoreboard.css";
+import "./scorekeeper.css";
 
-function Scoreboard(props) {
+function ScoreKeeper(props) {
   return (
 
 
-    <header className="scoreB">
+    <header className="scoreD">
      
       <div className="row">
         <h1>Clicky Game</h1>
@@ -34,4 +34,4 @@ function Scoreboard(props) {
     </header>
   );
 }
-export default Scoreboard;
+export default ScoreKeeper;
